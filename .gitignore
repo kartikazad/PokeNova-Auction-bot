@@ -1,0 +1,16 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Auction runtime state (regenerated automatically)
+auction_state.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
